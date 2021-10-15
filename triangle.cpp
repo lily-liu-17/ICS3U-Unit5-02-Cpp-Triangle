@@ -25,9 +25,9 @@ int main() {
 
     // input
     std::cout << "Enter the base length of the triangle (cm) : ";
-        std::cin >> lengthUserString;
+    std::cin >> lengthUserString;
     std::cout << "Enter the height of the triangle (cm) : ";
-        std::cin >> heightUserString;
+    std::cin >> heightUserString;
 
     try {
         lengthUser = std::stof(lengthUserString);
